@@ -120,7 +120,7 @@ The residuals seem to be fairly evenly distributed, with no clear pattern or tre
  <img alt="YOUR-ALT-TEXT" src="https://github.com/Mary080102/Capston-Two/blob/7d04797565f336ea74700806274c9eeceaf97eb7/PNG/plot7.png">
 </picture>
 
-### 9.Conclusion
+### 8.Conclusion
 In this modeling project, multiple machine learning algorithms were applied to predict asthma-related hospital visits in New York City based on various air quality and geographical features. The models evaluated include Linear Regression, Ridge Regression, Gradient Boosting, Random Forest, and Support Vector Regression (SVR).
 The performance metrics (R2, MAE, and MSE) showed that both Gradient Boosting and Random Forest performed exceptionally well, with R2 values of 0.962973 and 0.960578, respectively. These models also demonstrated lower MAE and MSE values compared to the other models, indicating better prediction accuracy and precision.
 The feature importance plots revealed that geographical features, particularly GeoType_Citywide, had the most significant impact on the predictions, followed by air quality metrics such as pm/Mean mcg/m3 and no2/Mean ppb.
@@ -128,7 +128,7 @@ Hyperparameter tuning using Grid Search CV was performed to optimize the models.
 Residual plots indicated that while the models performed well, there are still some outliers.
 
 
-### 8. Future Overseeing
+### 9. Future Overseeing
 
 * Further explore and engineer features that could improve model performance, such as incorporating additional air quality metrics or socioeconomic factors.
 
